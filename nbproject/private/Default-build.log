@@ -1,0 +1,11 @@
+"/bin/make" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+make[1]: Entering directory '/am/st-james/home1/taylornich3/Desktop/NWEN302/Packet-Sniffer-C/Packet-Sniffer'
+"/bin/make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Linux-x86/packet-sniffer
+make[2]: Entering directory '/am/st-james/home1/taylornich3/Desktop/NWEN302/Packet-Sniffer-C/Packet-Sniffer'
+mkdir -p build/Debug/GNU-Linux-x86
+rm -f "build/Debug/GNU-Linux-x86/main.o.d"
+g++    -c -g -MMD -MP -MF "build/Debug/GNU-Linux-x86/main.o.d" -o build/Debug/GNU-Linux-x86/main.o main.cpp
+mkdir -p dist/Debug/GNU-Linux-x86
+g++     -o dist/Debug/GNU-Linux-x86/packet-sniffer build/Debug/GNU-Linux-x86/main.o 
+make[2]: Leaving directory '/am/st-james/home1/taylornich3/Desktop/NWEN302/Packet-Sniffer-C/Packet-Sniffer'
+make[1]: Leaving directory '/am/st-james/home1/taylornich3/Desktop/NWEN302/Packet-Sniffer-C/Packet-Sniffer'
